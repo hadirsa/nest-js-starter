@@ -1,4 +1,5 @@
-export const DB_TYPE = 'mysql';
+// export const DB_TYPE = 'mysql';
+export const DB_TYPE = 'sqlite';
 export const ENVIRONMENT = process.env.NODE_ENV || 'development';
 export const PASSWORD_SALT = 10;
 export const AUTH_GUARD_TYPE = 'jwt';

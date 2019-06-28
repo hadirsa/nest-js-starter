@@ -15,6 +15,7 @@ export class ConfigurationService {
     const portParam: string | number = getEnvConfig(Configuration.DB_PORT);
 
     ConfigurationService.port = ConfigurationService.normalizePort(portParam);
+
   }
 
   private static normalizePort(param: string | number): number {
